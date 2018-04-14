@@ -1,0 +1,26 @@
+Tempo de Execução dos Metodos de Ordenação!!
+
+Tamanho: 100
+Tempo do Quick: 0.0000 s
+Tempo do Buble: 0.0002 s
+Tempo do Merge: 0.0000 s
+
+Tamanho: 1000
+Tempo do Quick: 0.0003 s
+Tempo do Buble: 0.0155 s
+Tempo do Merge: 0.0002 s
+
+Tamanho: 10000
+Tempo do Quick: 0.0039 s
+Tempo do Buble: 0.7103 s
+Tempo do Merge: 0.0027 s
+
+Tamanho: 50000
+Tempo do Quick: 0.0102 s
+Tempo do Buble: 17.6365 s
+Tempo do Merge: 0.0147 s
+
+Tamanho: 250000
+Tempo do Quick: 0.0400 s
+Tempo do Buble: 441.1323 s 
+Tempo do Merge: 0.0797 s

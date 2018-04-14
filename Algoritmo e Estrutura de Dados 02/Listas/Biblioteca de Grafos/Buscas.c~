@@ -1,0 +1,198 @@
+#ifndef BUSCAS_C_INCLUDED
+#define BUSCAS_C_INCLUDED
+#include "Biblio.h"
+
+
+int inicia_fila(Fila **f){
+  *f = NULL;
+}
+
+int add_fila(Fila **f,Vertices *v){
+  Fila *aux,*aux1;
+  aux = (Fila *)malloc(sizeof(Fila));
+  aux->vert = v;
+  aux->link = NULL;
+  if(*f == NULL)
+    *f = aux;
+  else{
+    aux1 = *f;
+    while(aux1->link != NULL)
+      aux1 = aux1->link;
+    aux1->link = aux;
+  }
+  return 1;
+}
+
+Vertices* remove_fila(Fila **f){
+  Fila *aux;
+  Vertices *r;
+  if(*f != NULL){
+    aux = (*f)->link;
+    r = (*f)->vert;
+    free(*f);
+    *f = aux;
+    return r;
+  }else
+    return NULL;
+}
+
+int inicia_busca_largura(Grafo *g, Vertices *s){
+  Vertices *aux;
+  aux = g->vert;
+  while(aux != NULL){
+    if(aux != s){
+      aux->cor = 0;
+      aux->pai = NULL;
+      aux->d = 99999;
+    }
+    aux = aux->link;
+  }
+}
+
+
+int bosta(Vertices *v){
+  Vertices *aux;
+  aux = v;
+  while(aux != NULL){
+    printf("%d -> ",aux->Vert);
+    aux = aux->pai;
+  }
+  printf("\n");
+}
+
+int busca_em_largura(Grafo *g, Vertices *s){
+  Vertices *aux,*aux2;
+  Arestas *aux1;
+  Fila *f;
+  int d;
+  inicia_fila(&f);
+  inicia_busca_largura(g,s);
+  s->cor = 1;
+  s->pai = NULL;
+  s->d = 0;
+  
+  add_fila(&f,s);
+  while(f!=NULL){
+    aux = remove_fila(&f);
+    aux1 = aux->arest;
+    while(aux1 != NULL){
+      aux2 = get_vertices(&g->vert,aux1->desc); 
+      if(aux2->cor == 0){
+	aux2->pai = aux;
+	aux2->cor = 1;
+	aux2->d = aux1->peso + aux2->pai->d;
+	add_fila(&f,aux2);
+      }
+      aux1 = aux1->link;
+      aux->cor = 2;
+      bosta(aux);
+    }
+  }
+}
+
+int limpar_listas_largura(Arestas **largura){
+  Arestas *aux;
+  while(*largura != NULL){
+    aux = (*largura)->link;
+    free(*largura);
+    *largura = aux;
+  }
+}
+
+
+int imprime_vertices_grafo_largura(Grafo *g,int desc){
+  Vertices *aux,*aux1;
+  aux1 = get_vertices(&g->vert,desc);
+  
+  if(aux1 == NULL || g->vert == NULL)
+    return 0;
+  
+  busca_em_largura(g,aux1);
+  add_arest_l(g);
+  
+  aux = g->vert;
+  
+  printf("V. Arestas\n");
+  while(aux != NULL){
+    printf("%d ",aux->Vert);
+    imprime_arest(&aux->b_larg);
+    printf("\n");
+    aux = aux->link;
+  };
+  
+  return 1;
+}
+
+int add_arest_l(Grafo *g){
+  Vertices *v;
+  v = g->vert;
+  while(v != NULL){
+    add_arestas_l(g,v->Vert,v->pai->Vert,v->d);
+    v = v->link;
+  }
+  
+}
+
+int add_arestas_l(Grafo *grafo, int ini, int fim,int peso){
+  Vertices *v;
+  
+ // int i = pesquisa_arestas_l(grafo,ini,fim);
+  //if(i || i == -1)
+  //  return 0;
+  
+  if(ini == fim){
+    v = get_vertices(&grafo->vert,fim);
+    add_arest(&v->b_larg,ini,peso);
+  }else{
+    v = get_vertices(&grafo->vert,ini);
+    add_arest(&v->b_larg,fim,peso);
+    
+    v = get_vertices(&grafo->vert,fim);
+    add_arest(&v->b_larg,ini,peso);
+  }
+  return 1;    
+}
+int imprime_arest(Arestas **arest){
+  Arestas *aux;
+  aux = *arest;
+  
+  if(*arest != NULL)
+    printf("->");
+  
+  while(aux != NULL){
+    if(aux->link != NULL)
+      printf(" %d -> ",aux->desc);
+    else
+      printf(" %d.",aux->desc);
+    aux = aux->link;
+  }
+}
+
+int pesquisa_arestas_l(Grafo *grafo, int ini, int fim){
+  Vertices *v;
+  
+  v = grafo->vert;
+  while(v!=NULL && v->Vert != ini)
+    v = v->link;
+  
+  if(v == NULL)
+    return -1;
+  
+  int i = pesq_arest(&v->b_larg,fim);
+    
+  v = grafo->vert;
+  while(v != NULL && v->Vert != fim)
+    v = v->link;
+  
+  if(v == NULL)
+    return -1; // Não existe o vertice
+  
+  int j = pesq_arest(&v->b_larg,ini);
+  
+  if(j != 0 && i != 0)
+    return 1; //Se achar, retorna verdadeiro
+  else
+    return 0; //Se não, retorna falso;
+}
+
+#endif //BUSCAS_C_INCLUDED

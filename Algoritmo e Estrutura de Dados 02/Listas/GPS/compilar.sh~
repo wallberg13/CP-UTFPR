@@ -1,0 +1,8 @@
+#!/bin/bash
+
+$(c99 -o Main Main.c -w)
+$(./Main)
+
+done
+
+

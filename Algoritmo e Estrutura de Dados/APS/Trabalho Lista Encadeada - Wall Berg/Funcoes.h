@@ -1,0 +1,79 @@
+/**
+
+Usando o nó de lista abaixo, implemente um Extrato Bancário
+
+O programa mostra um menu com as opções: [D]epósito, [S]aque [E]xtrato e [F]im. 
+
+Saque ou depósito: pede um valor em Reais e uma descrição (ex.: "Compras" , "Salário", "Carro", "Luz", "Água", "Manguaça", etc.)
+
+O comando Listar deve mostrar o extrato desde o início, com a descrição, valor, tipo e saldo de cada operação.
+
+Exemplo: 
+Depósito de R$1000, "Salário" (o saldo deve ficar R$ 1000)
+Saque de R$ 100 "Gandaia" (o saldo deve ficar R$ 900)
+Saque de R$ 80 "Telefone" (saldo R$ 820)
+Depósito R$ 200 "Mutretas" (Saldo de R$ 1020)*/
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+typedef struct noTag {
+    char descricao[30];
+    char operacao; // [S]aque ou [D]epósito
+    float valor;  // valor da operação
+    float saldo;  // saldo após a operação
+    struct noTag *link;
+} no;
+
+int realizaOperacao(no **l,char op,float valor, char descricao[]){
+  no *p, *n;
+  p = (no *)malloc(sizeof(no));
+  p->operacao = toupper(op);
+  p->valor = valor;
+  p->link = NULL;
+  strcpy(p->descricao,descricao);
+  if(*l == NULL){
+    if(op == 'D' || op == 'd'){
+      p->saldo = valor;
+      *l = p;
+    }else{
+      free(p); //Dei free por que, como a conta não pode ter saldo negativo, eu desaloco o que eu aloquei antes
+      return -1;
+    }
+  }else{
+    n = *l;
+    while(n->link != NULL)
+      n = n->link;
+    if(op == 'S' || op == 's'){
+      if(n->saldo < valor){
+	free(p); //Dei free por que, como a conta não pode ter saldo negativo, eu desaloco o que eu aloquei antes
+	return -1;
+      }else
+	p->saldo = n->saldo - valor;
+    }else{
+      if(op == 'D' || op == 'd')
+	p->saldo = n->saldo + valor;
+    }
+    n->link = p;
+  }  
+}
+
+void extrato(no **l){
+  no *p;
+  p = *l;
+  
+  while(p != NULL){
+    if(p->operacao == 'S')
+      printf("Saque \t de: %.2f R$ \t Referente à: %s \t o saldo fica: %.2f \n ",p->valor,p->descricao,p->saldo);
+    if(p->operacao == 'D')
+      printf("Deposito \t de: %.2f R$ \t Referente à: %s  \t o saldo fica: %.2f \n ",p->valor, p->descricao,p->saldo);
+    p = p->link;
+  } 
+  printf("\n\n\n");
+}
+
+void iniLista(no **l){
+  *l = NULL;
+}
+

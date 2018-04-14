@@ -1,0 +1,37 @@
+Questões Teoricas
+
+1.
+    a - Herança
+    b - protected
+    c - de herança
+    d - de agregação
+    e - é tipo de
+    f - publico
+    g - objeto
+    h - super(atributos)
+    
+2.
+    a - Falso, Pois quando é criado uma instancia da subclasse, o
+	construtor da superclasse é herdado para a subclasse, e isso 
+	é possivel chamando o metodo super(atributos do construtor).
+	
+    b - Falso. Herança é um relacionamento do tipo: é tipo de. O 
+	relacionamento do tipo "tem um" é do tipo agregação.
+	
+    c - Falso. A classe carro tem um relacionamento do tipo: "tem um" com 
+	as classes valante e freio. Agregação.
+	
+    d - Verdadeiro.
+    
+    e - Falso. A subclasse sobrescreve o metodo.
+    
+3.
+
+
+9.
+	
+
+
+
+    
+    

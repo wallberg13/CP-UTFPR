@@ -1,0 +1,58 @@
+/*create table fabricante(
+	PK_fab		Integer not null Primary Key,
+	Nome		Varchar(40) not null,
+	Endereco	Varchar(40) not null,
+	Telefone	Varchar(14) not null,
+	CNPJ		char(17) not null);
+	
+create table produto(
+	PK_prod	Integer not null Primary Key,
+	Nome		Varchar(40) not null,
+	Cor		Varchar(14) not null,
+	Voltagem	Integer);
+
+commit;
+Agora implemente o relacionamento por chaves */
+	
+	/* COLOCANDO CHAVE ESTRANGEIRA EM UM ATRIBUTO.
+	alter table produto add fk_fab integer not null;
+	commit;
+	
+	alter table produto
+	add foreign key(fk_fab) references fabricante(pk_fab);
+	commit; 
+	
+
+Insert INTO Fabricante (PK_Fab, Nome, Endereco, Telefone, CNPJ)
+	Values(1, 'Brastemp', 'Av. Manaus', '0800-123765', '988.189.099/0001');
+
+	commit ; */
+/*
+Insert INTO Produto (PK_Prod, Nome, Cor, Voltagem, FK_Fab)
+	Values(1, 'Fogao', 'BR', 110, 1);
+
+	commit; 
+	
+	
+Erro!!! Pq? */
+
+/*	
+Insert INTO Fabricante (PK_Fab, Nome, Endereco, Telefone, CNPJ)
+	Values(2, 'Britania', 'Av. Anhanguera', '0800-456378', '999.189.212/0001');
+
+
+Insert INTO Produto (PK_Prod, Nome, Cor, Voltagem, FK_Fab)
+	Values(2, 'Cafeteira', 'BR', 220, 2);
+
+commit ;
+
+*/
+
+/*PRODUTO CARTESIANO*/
+select * from produto p, fabricante f where p.FK_FAB = f.PK_FAB;
+
+
+
+
+
+

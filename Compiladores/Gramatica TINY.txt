@@ -1,0 +1,74 @@
+A = <PROGRAMA>
+B = <DECL_SEQUENCIA>
+C = <DECLARACAO>
+D = <COND_DECL>
+E = <REPET_DECL>
+F = <ATRIB_DECL> 
+G = <LEIT_DECL>
+H = <ESCR_DECL>
+I = <EXP>
+J = <COMP_OP>
+K = <EXP_SIMPLES>
+L = <SOMA>
+M = <TERMO>
+N = <MULT>
+O = <FATOR>
+
+@ = VAZIO
+
+GRAMATICA TINY SEM SIMPLIFICAÇÃO 
+A ::= B
+B ::= B ; C | C
+C ::= D | E | F | G | H
+D ::= if I then B | if I then B else B end
+E ::= repeat B until I
+F ::= id := I
+G ::= read id
+H ::= write I
+I ::= K J K | K
+J ::= < | =
+K ::= K L M | M
+L ::= + | -
+M ::= M N O | O
+N ::= * | /
+O ::= ( I ) | num | id
+
+GRAMATICA TINY COM SIMPLIFICAÇÃO E AMBIGUIDADE "REMOVIDA"
+
+A	::= B
+B	::= C B'
+B'	::= ; C B' | @
+C	::= D | E | F | G | H
+D	::= if I then B D'
+D'	::= else B end | @
+E	::= repeat B until I
+F	::= id := I
+G	::= read id
+H	::= write I
+I	::= K I'
+I'	::= J K | @
+J	::= < | =
+K	::= M K'
+K'	::= L M K' | @
+L	::= + | -
+M	::= O M'
+M'	::= N O M' | @
+N	::= * | /
+O	::= ( I ) | num | id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

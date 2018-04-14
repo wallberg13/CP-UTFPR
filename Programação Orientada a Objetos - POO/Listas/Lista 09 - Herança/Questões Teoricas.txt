@@ -1,0 +1,54 @@
+Questões Teoricas
+
+1.
+    a - Herança
+    b - protected
+    c - de herança
+    d - de agregação
+    e - é tipo de
+    f - publico
+    g - objeto
+    h - super(atributos)
+    
+2.
+    a - Falso, Pois quando é criado uma instancia da subclasse, o
+	construtor da superclasse é herdado para a subclasse, e isso 
+	é possivel chamando o metodo super(atributos do construtor).
+	
+    b - Falso. Herança é um relacionamento do tipo: é tipo de. O 
+	relacionamento do tipo "tem um" é do tipo agregação.
+	
+    c - Falso. A classe carro tem um relacionamento do tipo: "tem um" com 
+	as classes valante e freio. Agregação.
+	
+    d - Verdadeiro.
+    
+    e - Falso. A subclasse sobrescreve o metodo.
+    
+3.
+
+
+9.
+    O erro esta na hora de atribuir os valores x,y,z. Pois eles são valores da
+    superclasse e não da classe filha. o certo seria: super(_x,_y).
+    
+10.
+    Em java não é perminito multipla herança, então o erro já esta na 
+    primeira linha. E consequentemente no resto do programa, quando 
+    tenta-se o usar um super para os as "duas classes herdadas".
+   
+11.
+    O funcionario não iria ter nome, nem id e nem data de nascimento, e na
+    hora de chamar o to string, provalvemente ira dar um exception pois 
+    os atributos da classe pai de funcionario não foram devidamente preenchidos.
+    
+12.
+    private String departamento;
+    private Date promoçãoAChefe;
+    private Date admissao;
+    private float salario;
+    private String nome;
+    private int identidade;
+    private Date nascimento;
+    
+    Somente a variavel departamento e promoçãoAChefe.

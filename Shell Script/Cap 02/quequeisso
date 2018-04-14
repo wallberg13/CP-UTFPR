@@ -1,0 +1,11 @@
+ATENCAO, O TEXTO ABAIXO NAO EH TREINAMENTO
+EH UMA LAVAGEM CEREBRAL!!!
+O Shell alem de analisar cada dado entrando a partir do prompt do UNIX,
+interfaceando com os usuarios, tem tambem as seguintes atribuicoes:
+Interpretador de comandos;
+Controle do ambiente UNIX;
+Redirecionamento de entrada e saida;
+Substituicao de nomes de arquivo;
+Concatenacao de pipe;
+Execucao de programas;
+Poderosa linguagem de programacao.

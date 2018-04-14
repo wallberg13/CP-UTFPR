@@ -1,0 +1,43 @@
+Exercicio 02: 
+    A classe tem metodos abstratos, mas a classe não é abstrata.
+    A palavra reservada abstract deve vim antes do encapsulamento do metodo(public ou private)
+    então no caso, deve esta escrito: public abstract String...
+    
+Exercicio 03:
+    Na função move iria dá um erro de compilação, já que ela só possui a "cabeça"
+    do metodo. Mas fora isso, a classe iria poder ser instanciada e iria funcionar quase
+    que normal.
+    Se a palavra abstract fosse tirada apenas na segunda linha(o que esta junto com class),
+    irá dar erro pois existe um metodo abstrato em uma classe que não é abstrata.
+    
+Exercicio 04:
+    Apesar do nome, mas também pelo o seguinte fato: As vezes é preciso fazer
+    uma classe generica onde não é preciso ser instanciada e que as demais 
+    classes a partir dessa classe generica, tenha os mesmos comportamentos, ou
+    atributos. Se é uma classe generica, então ela não pode ser instanciada de
+    acordo com a necessidade do sistema.
+    Ex: em um sistema escolar, todo mundo é uma pessoa(professores, alunos, diretores e etcs),
+    mas não é preciso ter instancias de pessoas no sistema, por que o que 
+    interressa é as pessoas que tem "cargos" no sistema corporativo, mas no
+    final, são pessoas, pois tem nome, idade e etc.
+    Mas não é preciso instanciar uma pessoa, só é preciso que imprima por exemplo, o nome
+    da pessoa.
+    
+Exercicio 05:
+    Por que metodos estaticos são metodos pertencentes a classes, e interface não
+    é uma classe.
+
+Exercicio 06:
+    Por que por definição, a declação do contrutor é: public nomeDaClasse(Atributos...);
+    Então se falha a definição, não pode.
+    
+Exercicio 07:
+    Por que metodos contrutores, são metodos de classe, e interface não é classe.
+ 
+Exercicio 08:
+    Iria dá erro, por que o parametro do metodo é uma ObjetoGeometrico e não uma string.
+    e ObjetoGeometrico é uma interface.
+    
+    
+Exercicio 10:
+    O erro esta na não reescrita do metod void reseta(int origem).

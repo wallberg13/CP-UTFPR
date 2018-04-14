@@ -1,0 +1,147 @@
+AUTOR: Thomas Hobbes
+IDIOMA: INGLES
+TIPO_TEXTO: Livro
+TEXTO: Leviathan
+
+INTRODUCTION
+
+  NATURE (the art whereby God hath made and governs the world) is by
+the art of man, as in many other things, so in this also imitated,
+that it can make an artificial animal. For seeing life is but a motion
+of limbs, the beginning whereof is in some principal part within,
+why may we not say that all automata (engines that move themselves
+by springs and wheels as doth a watch) have an artificial life? For
+what is the heart, but a spring; and the nerves, but so many
+strings; and the joints, but so many wheels, giving motion to the
+whole body, such as was intended by the Artificer? Art goes yet
+further, imitating that rational and most excellent work of Nature,
+man. For by art is created that great LEVIATHAN called a COMMONWEALTH,
+or STATE (in Latin, CIVITAS), which is but an artificial man, though
+of greater stature and strength than the natural, for whose protection
+and defence it was intended; and in which the sovereignty is an
+artificial soul, as giving life and motion to the whole body; the
+magistrates and other officers of judicature and execution, artificial
+joints; reward and punishment (by which fastened to the seat of the
+sovereignty, every joint and member is moved to perform his duty)
+are the nerves, that do the same in the body natural; the wealth and
+riches of all the particular members are the strength; salus populi
+(the people's safety) its business; counsellors, by whom all things
+needful for it to know are suggested unto it, are the memory; equity
+and laws, an artificial reason and will; concord, health; sedition,
+sickness; and civil war, death. Lastly, the pacts and covenants, by
+which the parts of this body politic were at first made, set together,
+and united, resemble that fiat, or the Let us make man, pronounced
+by God in the Creation.
+  To describe the nature of this artificial man, I will consider
+
+  First, the matter thereof, and the artificer; both which is man.
+  Secondly, how, and by what covenants it is made; what are the rights
+and just power or authority of a sovereign; and what it is that
+preserveth and dissolveth it.
+  Thirdly, what is a Christian Commonwealth.
+  Lastly, what is the Kingdom of Darkness.
+
+  Concerning the first, there is a saying much usurped of late, that
+wisdom is acquired, not by reading of books, but of men.
+Consequently whereunto, those persons, that for the most part can give
+no other proof of being wise, take great delight to show what they
+think they have read in men, by uncharitable censures of one another
+behind their backs. But there is another saying not of late
+understood, by which they might learn truly to read one another, if
+they would take the pains; and that is, Nosce teipsum, Read thyself:
+which was not meant, as it is now used, to countenance either the
+barbarous state of men in power towards their inferiors, or to
+encourage men of low degree to a saucy behaviour towards their
+betters; but to teach us that for the similitude of the thoughts and
+passions of one man, to the thoughts and passions of another,
+whosoever looketh into himself and considereth what he doth when he
+does think, opine, reason, hope, fear, etc., and upon what grounds; he
+shall thereby read and know what are the thoughts and passions of
+all other men upon the like occasions. I say the similitude of
+passions, which are the same in all men,- desire, fear, hope, etc.;
+not the similitude of the objects of the passions, which are the
+things desired, feared, hoped, etc.: for these the constitution
+individual, and particular education, do so vary, and they are so easy
+to be kept from our knowledge, that the characters of man's heart,
+blotted and confounded as they are with dissembling, lying,
+counterfeiting, and erroneous doctrines, are legible only to him
+that searcheth hearts. And though by men's actions we do discover
+their design sometimes; yet to do it without comparing them with our
+own, and distinguishing all circumstances by which the case may come
+to be altered, is to decipher without a key, and be for the most
+part deceived, by too much trust or by too much diffidence, as he that
+reads is himself a good or evil man.
+  But let one man read another by his actions never so perfectly, it
+serves him only with his acquaintance, which are but few. He that is
+to govern a whole nation must read in himself, not this, or that
+particular man; but mankind: which though it be hard to do, harder
+than to learn any language or science; yet, when I shall have set down
+my own reading orderly and perspicuously, the pains left another
+will be only to consider if he also find not the same in himself.
+For this kind of doctrine admitteth no other demonstration.
+                            THE FIRST PART
+                                OF MAN
+
+                              CHAPTER I
+                               OF SENSE
+
+  CONCERNING the thoughts of man, I will consider them first singly,
+and afterwards in train or dependence upon one another. Singly, they
+are every one a representation or appearance of some quality, or other
+accident of a body without us, which is commonly called an object.
+Which object worketh on the eyes, ears, and other parts of man's body,
+and by diversity of working produceth diversity of appearances.
+  The original of them all is that which we call sense, (for there
+is no conception in a man's mind which hath not at first, totally or
+by parts, been begotten upon the organs of sense). The rest are
+derived from that original.
+  To know the natural cause of sense is not very necessary to the
+business now in hand; and I have elsewhere written of the same at
+large. Nevertheless, to fill each part of my present method, I will
+briefly deliver the same in this place.
+  The cause of sense is the external body, or object, which presseth
+the organ proper to each sense, either immediately, as in the taste
+and touch; or mediately, as in seeing, hearing, and smelling: which
+pressure, by the mediation of nerves and other strings and membranes
+of the body, continued inwards to the brain and heart, causeth there a
+resistance, or counter-pressure, or endeavour of the heart to
+deliver itself: which endeavour, because outward, seemeth to be some
+matter without. And this seeming, or fancy, is that which men call
+sense; and consisteth, as to the eye, in a light, or colour figured;
+to the ear, in a sound; to the nostril, in an odour; to the tongue and
+palate, in a savour; and to the rest of the body, in heat, cold,
+hardness, softness, and such other qualities as we discern by feeling.
+All which qualities called sensible are in the object that causeth
+them but so many several motions of the matter, by which it presseth
+our organs diversely. Neither in us that are pressed are they anything
+else but diverse motions (for motion produceth nothing but motion).
+But their appearance to us is fancy, the same waking that dreaming.
+And as pressing, rubbing, or striking the eye makes us fancy a
+light, and pressing the ear produceth a din; so do the bodies also
+we see, or hear, produce the same by their strong, though unobserved
+action. For if those colours and sounds were in the bodies or
+objects that cause them, they could not be severed from them, as by
+glasses and in echoes by reflection we see they are: where we know the
+thing we see is in one place; the appearance, in another. And though
+at some certain distance the real and very object seem invested with
+the fancy it begets in us; yet still the object is one thing, the
+image or fancy is another. So that sense in all cases is nothing
+else but original fancy caused (as I have said) by the pressure that
+is, by the motion of external things upon our eyes, ears, and other
+organs, thereunto ordained.
+  But the philosophy schools, through all the universities of
+Christendom, grounded upon certain texts of Aristotle, teach another
+doctrine; and say, for the cause of vision, that the thing seen
+sendeth forth on every side a visible species, (in English) a
+visible show, apparition, or aspect, or a being seen; the receiving
+whereof into the eye is seeing. And for the cause of hearing, that the
+thing heard sendeth forth an audible species, that is, an audible
+aspect, or audible being seen; which, entering at the ear, maketh
+hearing. Nay, for the cause of understanding also, they say the
+thing understood sendeth forth an intelligible species, that is, an
+intelligible being seen; which, coming into the understanding, makes
+us understand. I say not this, as disapproving the use of
+universities: but because I am to speak hereafter of their office in a
+Commonwealth, I must let you see on all occasions by the way what
+things would be amended in them; amongst which the frequency of
+insignificant speech is one.

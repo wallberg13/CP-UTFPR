@@ -1,0 +1,248 @@
+#include<stdio.h>
+#include<stdlib.h>
+#define MAX 100
+#define JOINHA 1
+
+#define ErrorFull -1
+#define ErrorEmpty -2
+#define MAX 100
+
+typedef struct{
+	int top;
+	int vetor[MAX];
+}Pilha;
+
+typedef struct{
+	int ini,top,cont;
+	int vetor[MAX];
+}Fila;
+
+/**Funções de Pilha */
+int stackFull(Pilha *pPilha);
+int stackEmpty(Pilha *pPilha);
+int push(Pilha *pPilha, int element);
+int pop(Pilha *pPilha);
+int initializePilha(Pilha *pPilha);
+int printPilha(Pilha *pPilha);
+
+/**Funcoes de Fila */
+int iniFila(Fila *pFila);
+int pushFila(Fila *pFila, int element);
+int popFila(Fila *pFila);
+int FilaFull(Fila *pfila);
+int FilaEmpty(Fila *pFila);
+int FilaPrioridade(Fila *pFila, int valor);
+void printFila(Fila *f);
+
+
+int push(Pilha *pPilha, int element){
+	if(stackFull(pPilha))
+		return(ErrorFull);
+	else{
+		pPilha->vetor[pPilha->top] = element;
+		pPilha->top++;
+		return(pPilha->top);
+	}
+}
+  
+int pop(Pilha *pPilha){
+	int i;
+	if(stackEmpty(pPilha))
+		return(ErrorEmpty);
+	else{
+		i = pPilha->vetor[pPilha->top - 1];
+		pPilha->top--;
+		return i;  
+	}
+}
+  
+int stackFull(Pilha *pPilha){
+	if(pPilha->top == MAX)
+		return(1);
+	else
+		return(0);  
+}
+
+int stackEmpty(Pilha *pPilha){
+	if(pPilha->top == 0)
+		return(1);
+	else
+		return(0);
+}
+
+int initializePilha(Pilha *pPilha){
+	pPilha->top = 0;
+}
+
+int printPilha(Pilha *pPilha){
+	Pilha aux; initializePilha(&aux);
+	if(stackEmpty(pPilha)){
+		printf("Pilha Vazia!!");
+	}else{
+		while(!stackEmpty(pPilha)){ //Desempilhando a principal e jogando na auxiliar;
+			printf("%d \n",pPilha->vetor[pPilha->top-1]);
+			push(&aux,pPilha->vetor[pPilha->top-1]);
+			pop(pPilha);
+		}
+		while(!stackEmpty(&aux)){
+			push(pPilha,aux.vetor[aux.top-1]);
+			pop(&aux);
+		}
+	}
+}
+
+/** Funcoes de Fila */
+int iniFila(Fila *pFila){
+	pFila->ini = 0;
+	pFila->top = 0;
+	pFila->cont = 0;
+	return (JOINHA);
+}
+
+int pushFila(Fila *pFila, int element){
+	if(FilaFull(pFila))
+		return ErrorFull;
+	else{
+		pFila->vetor[pFila->top] = element;
+		if(pFila->top == MAX - 1)
+			pFila->top = 0;
+		else
+			pFila->top++;
+		pFila->cont++;
+	}
+	return(pFila->top);
+}
+
+int popFila(Fila *pFila){
+	int i = pFila->vetor[pFila->ini];
+	if(FilaEmpty(pFila))
+		return ErrorEmpty;
+	else{
+		if(pFila->ini == MAX - 1)
+			pFila->ini = 0;
+		else
+			pFila->ini++;
+		pFila->cont--;
+	}
+	return i;
+}
+
+int FilaFull(Fila *pFila){
+	if(pFila->cont == MAX - 1)
+		return (1);
+	else
+		return(0);  
+}
+
+int FilaEmpty(Fila *pFila){
+	if(pFila->cont == 0)
+		return (1);
+	else
+		return (0); 
+}
+
+int FilaPrioridade(Fila *pFila, int valor){
+	if(FilaFull(pFila))
+		return ErrorEmpty;
+	int i, pos = pFila->top;
+	for(i = pFila->ini; i < pFila->top; i++){
+		if(pFila->vetor[i] < valor)
+			break;
+		if(i == MAX - 1)
+			i = -1;
+	}
+	pos = i;
+	for(i = pFila->top; i > pos; i--){
+		if(i - 1 != -1)
+			pFila->vetor[i] = pFila->vetor[i - 1];
+		else{
+			pFila->vetor[i] = pFila->vetor[MAX - 1];
+		}
+		if(i == 0)
+			i = MAX;
+	}
+	pFila->vetor[pos] = valor;
+	if(pFila->top == MAX - 1)
+		pFila->top = 0;
+	else
+		pFila->top++;
+	pFila->cont++;
+	return JOINHA;
+}
+
+int importar_arquivo(char *nome_arquivo){
+	// abre o arquivo para leitura ("r" - read)
+	FILE *arquivo = fopen(nome_arquivo,"r");
+	int status,ffn, fa, ffp, cont, ele, prova;
+	char op;
+	while (status = fscanf(arquivo, "%d",&cont) != EOF){
+		printf("%d \n", cont);
+		getc(arquivo);
+		getc(arquivo);
+		Pilha a; 
+		Fila fp, fn;
+		initializePilha(&a);
+		iniFila(&fp);
+		iniFila(&fn);
+		fa = 1; ffp = 1; ffn = 1;
+		for(int i = 1; (i <= cont)&&(status = fscanf(arquivo,"%c %d",&op,&ele) != EOF); i++){
+			printf("%c %d \n",op,ele);
+			getc(arquivo);
+			getc(arquivo);
+			if(op == 'I'){
+				push(&a,ele);
+				FilaPrioridade(&fp,ele);
+				pushFila(&fn,ele);
+			}else{
+				if(op == 'R'){
+					if(fa){
+						prova = pop(&a);
+						if(prova != ele)
+							fa = 0;
+					}
+					if(ffn){
+						prova = popFila(&fn);
+						if(prova != ele)
+							ffn = 0;
+					}
+					if(ffp){
+						prova = popFila(&fp);
+						if(prova != ele)
+							ffp = 0;
+					}
+				}
+			}
+		}
+		if(!fa && !ffn && !ffp)
+			printf("IMPOSSIVEL \n");
+		else{
+			if(fa && ffn && ffp)
+				printf("NÃO SEI\n");
+			else{
+				if((fa && ffp)||(fa && ffn)||(ffn && ffp))
+					printf("NÃO SEI \n");
+				else{
+					if(fa)
+						printf("PILHA \n");
+					else{
+						if(ffn)
+							printf("FILA \n");
+						else
+							printf("FILA DE PRIORIDADE \n");
+					}
+				}
+			}
+		}
+	}
+	fclose(arquivo); // fecha arquivo
+	return(1);
+}
+
+void printFila(Fila *f){
+	for(int i = f->ini; i != f->top && f->cont != 0; i++){
+		printf("%d \n",f->vetor[i]);
+		if(i == MAX - 1){
+			i = -1;
+		}
+	}
+}
