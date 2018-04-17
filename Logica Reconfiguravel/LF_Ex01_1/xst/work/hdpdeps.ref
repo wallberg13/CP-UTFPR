@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/LF_Ex01_1/cont_4bits.vhd 2017/11/13.19:18:01 P.20131013
+EN work/cont_4bits 1510607887 FL D:/Projetos_ISE/LF_Ex01_1/cont_4bits.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/cont_4bits/arq 1510607888 \
+      FL D:/Projetos_ISE/LF_Ex01_1/cont_4bits.vhd EN work/cont_4bits 1510607887

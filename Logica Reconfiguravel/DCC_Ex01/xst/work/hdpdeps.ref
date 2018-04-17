@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/DCC_Ex01/dcc_ex01.vhd 2017/09/30.18:22:40 P.20131013
+EN work/ccto 1506806565 FL D:/Projetos_ISE/DCC_Ex01/dcc_ex01.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ccto/arq 1506806566 \
+      FL D:/Projetos_ISE/DCC_Ex01/dcc_ex01.vhd EN work/ccto 1506806565

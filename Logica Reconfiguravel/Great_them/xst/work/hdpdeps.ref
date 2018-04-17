@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/Great_them/gt_them.vhd 2017/09/12.19:16:56 P.20131013
+EN work/gt_th_2bit 1505254622 FL D:/Projetos_ISE/Great_them/gt_them.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gt_th_2bit/arq 1505254623 \
+      FL D:/Projetos_ISE/Great_them/gt_them.vhd EN work/gt_th_2bit 1505254622

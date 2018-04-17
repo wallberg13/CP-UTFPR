@@ -1,0 +1,6 @@
+NET "clk" LOC = B8;
+
+NET "led(3)" LOC = P6;
+NET "led(2)" LOC = P7;
+NET "led(1)" LOC = M11;
+NET "led(0)" LOC = M5;

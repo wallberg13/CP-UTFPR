@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Projetos_ISE/Atividade01_Execicio02/tb_mlt_2bits_isim_beh.exe" -prj "D:/Projetos_ISE/Atividade01_Execicio02/tb_mlt_2bits_beh.prj" "work.tb_mlt_2bits" 

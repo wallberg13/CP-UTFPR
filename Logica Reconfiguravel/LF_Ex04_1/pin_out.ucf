@@ -1,0 +1,5 @@
+NET "mclk" LOC = B8;
+NET "controle" LOC = N3;
+NET "sensor" LOC = G12;
+NET "alarme" LOC = M5;
+NET "status" LOC = G1;

@@ -1,0 +1,7 @@
+AR clk_generate arq D:/Projetos_ISE/LF_Ex04_3/clk_generate.vhd sub00/vhpl04 1511298834
+PH my_pack NULL D:/Projetos_ISE/LF_Ex04_3/my_package.vhd sub00/vhpl00 1511298830
+AR cronometro arq D:/Projetos_ISE/LF_Ex04_3/top.vhd sub00/vhpl06 1511298836
+EN cronometro NULL D:/Projetos_ISE/LF_Ex04_3/top.vhd sub00/vhpl05 1511298835
+EN disp_7seg NULL D:/Projetos_ISE/LF_Ex04_3/disp_7seg.vhd sub00/vhpl01 1511298831
+AR disp_7seg arq D:/Projetos_ISE/LF_Ex04_3/disp_7seg.vhd sub00/vhpl02 1511298832
+EN clk_generate NULL D:/Projetos_ISE/LF_Ex04_3/clk_generate.vhd sub00/vhpl03 1511298833

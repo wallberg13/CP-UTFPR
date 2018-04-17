@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Oct 09 19:28:24 2017
+
+drc -z som_sub_2bit.ncd som_sub_2bit.pcf
+
+DRC detected 0 errors and 0 warnings.

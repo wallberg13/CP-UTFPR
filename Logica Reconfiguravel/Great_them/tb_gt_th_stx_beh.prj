@@ -1,0 +1,2 @@
+vhdl isim_temp "gt_them.vhd"
+vhdl isim_temp "tb_gt_th_2bit.vhd"

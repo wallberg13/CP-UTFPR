@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/comparador/comparador.vhd 2017/09/05.09:41:38 P.20131013
+EN work/comparador 1504616344 FL D:/Projetos_ISE/comparador/comparador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparador/arq_comp 1504616345 \
+      FL D:/Projetos_ISE/comparador/comparador.vhd EN work/comparador 1504616344

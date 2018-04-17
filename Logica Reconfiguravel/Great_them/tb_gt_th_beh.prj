@@ -1,0 +1,2 @@
+vhdl work "gt_them.vhd"
+vhdl work "tb_gt_th_2bit.vhd"

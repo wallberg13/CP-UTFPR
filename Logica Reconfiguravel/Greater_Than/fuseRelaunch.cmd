@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Projetos_ISE/Greater_Than/tb_gt_2b_isim_beh.exe" -prj "D:/Projetos_ISE/Greater_Than/tb_gt_2b_beh.prj" "work.tb_gt_2b" 

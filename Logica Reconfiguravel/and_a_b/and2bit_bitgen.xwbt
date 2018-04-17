@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Projetos_ISE\and_a_b\and2bit.ncd
+OUTFILE=D:\Projetos_ISE\and_a_b\and2bit.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\Projetos_ISE\and_a_b
+LICENSE=WebPack
+USER_INFO=179504511_180332158_0_034

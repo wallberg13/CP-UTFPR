@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/and_a_b/and2bit.xst" -ofn "D:/Projetos_ISE/and_a_b/and2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 and2bit.ngc and2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o and2bit_map.ncd and2bit.ngd and2bit.pcf 
+par -w -intstyle ise -ol high -t 1 and2bit_map.ncd and2bit.ncd and2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml and2bit.twx and2bit.ncd -o and2bit.twr and2bit.pcf 
+bitgen -intstyle ise -f and2bit.ut and2bit.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_and_a_b.ucf -p xc3s100e-cp132-4 and2bit.ngc and2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o and2bit_map.ncd and2bit.ngd and2bit.pcf 
+par -w -intstyle ise -ol high -t 1 and2bit_map.ncd and2bit.ncd and2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml and2bit.twx and2bit.ncd -o and2bit.twr and2bit.pcf -ucf cnst_and_a_b.ucf 
+bitgen -intstyle ise -f and2bit.ut and2bit.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_and_a_b.ucf -p xc3s100e-cp132-4 and2bit.ngc and2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o and2bit_map.ncd and2bit.ngd and2bit.pcf 
+par -w -intstyle ise -ol high -t 1 and2bit_map.ncd and2bit.ncd and2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml and2bit.twx and2bit.ncd -o and2bit.twr and2bit.pcf -ucf cnst_and_a_b.ucf 
+bitgen -intstyle ise -f and2bit.ut and2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/and_a_b/and2bit.xst" -ofn "D:/Projetos_ISE/and_a_b/and2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_and_a_b.ucf -p xc3s100e-cp132-4 and2bit.ngc and2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o and2bit_map.ncd and2bit.ngd and2bit.pcf 
+par -w -intstyle ise -ol high -t 1 and2bit_map.ncd and2bit.ncd and2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml and2bit.twx and2bit.ncd -o and2bit.twr and2bit.pcf -ucf cnst_and_a_b.ucf 
+bitgen -intstyle ise -f and2bit.ut and2bit.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_and_a_b.ucf -p xc3s100e-cp132-4 and2bit.ngc and2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o and2bit_map.ncd and2bit.ngd and2bit.pcf 
+par -w -intstyle ise -ol high -t 1 and2bit_map.ncd and2bit.ncd and2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml and2bit.twx and2bit.ncd -o and2bit.twr and2bit.pcf -ucf cnst_and_a_b.ucf 
+bitgen -intstyle ise -f and2bit.ut and2bit.ncd 
+bitgen -intstyle ise -f and2bit.ut and2bit.ncd 

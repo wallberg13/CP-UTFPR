@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/Comparador_XOR/comp_xor.vhd 2017/09/12.18:23:24 P.20131013
+EN work/cmp_xnor 1505253958 FL D:/Projetos_ISE/Comparador_XOR/comp_xor.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cmp_xnor/arq 1505253959 \
+      FL D:/Projetos_ISE/Comparador_XOR/comp_xor.vhd EN work/cmp_xnor 1505253958

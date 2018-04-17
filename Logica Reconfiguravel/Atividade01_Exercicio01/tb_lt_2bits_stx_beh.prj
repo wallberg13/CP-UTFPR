@@ -1,0 +1,2 @@
+vhdl isim_temp "less_than.vhd"
+vhdl isim_temp "tb_less_than.vhd"

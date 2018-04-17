@@ -1,0 +1,2 @@
+vhdl work "comparador.vhd"
+vhdl work "tb_comparador.vhd"

@@ -1,0 +1,4 @@
+vhdl work "my_packages.vhd"
+vhdl work "DISP_7Seg.vhd"
+vhdl work "Clk_Generate.vhd"
+vhdl work "main.vhd"

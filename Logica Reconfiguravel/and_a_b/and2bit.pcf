@@ -1,0 +1,10 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Sep 25 20:02:50 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "y" LOCATE = SITE "M5" LEVEL 1;
+COMP "a" LOCATE = SITE "P11" LEVEL 1;
+COMP "b" LOCATE = SITE "L3" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Projetos_ISE/Porta_AND_3_In/tb_porta_and_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_porta_and" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/tb_porta_and/ta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ta</obj_property>
+      <obj_property name="ObjectShortName">ta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_porta_and/tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tb</obj_property>
+      <obj_property name="ObjectShortName">tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_porta_and/tc" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tc</obj_property>
+      <obj_property name="ObjectShortName">tc</obj_property>
+      <obj_property name="label">tc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_porta_and/tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+</wave_config>

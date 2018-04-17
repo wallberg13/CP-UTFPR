@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/Comparador_Sem_Sinal/cmp_sem_sinal.xst" -ofn "D:/Projetos_ISE/Comparador_Sem_Sinal/cmp_sem_sinal.syr" 

@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/Porta_AND_3_In/and_3_in.vhd 2017/09/12.09:39:47 P.20131013
+EN work/porta_and 1505252326 FL D:/Projetos_ISE/Porta_AND_3_In/and_3_in.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/porta_and/arq 1505252327 \
+      FL D:/Projetos_ISE/Porta_AND_3_In/and_3_in.vhd EN work/porta_and 1505252326

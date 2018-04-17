@@ -1,0 +1,7 @@
+
+**** Build of configuration Debug for project APS01_Debounced_Encoder ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'APS01_Debounced_Encoder.out' is up to date.
+
+**** Build Finished ****

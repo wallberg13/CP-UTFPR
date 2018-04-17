@@ -1,0 +1,2 @@
+vhdl work "less_than.vhd"
+vhdl work "tb_less_than.vhd"

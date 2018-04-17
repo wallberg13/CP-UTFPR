@@ -1,0 +1,2 @@
+vhdl isim_temp "circuit_com_sinais.vhd"
+vhdl isim_temp "tb_circuito_com_sinais.vhd"

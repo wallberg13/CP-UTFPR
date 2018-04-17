@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/Greater_Than/gt_2bits.vhd 2017/09/19.18:43:03 P.20131013
+EN work/greater_2bits 1505857611 FL D:/Projetos_ISE/Greater_Than/gt_2bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/greater_2bits/arq 1505857612 \
+      FL D:/Projetos_ISE/Greater_Than/gt_2bits.vhd EN work/greater_2bits 1505857611

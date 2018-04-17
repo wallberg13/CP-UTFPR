@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/LF_Ex04_1/alarme.vhd 2017/11/21.19:58:02 P.20131013
+EN work/alarm 1511301485 FL D:/Projetos_ISE/LF_Ex04_1/alarme.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/alarm/arq 1511301486 \
+      FL D:/Projetos_ISE/LF_Ex04_1/alarme.vhd EN work/alarm 1511301485

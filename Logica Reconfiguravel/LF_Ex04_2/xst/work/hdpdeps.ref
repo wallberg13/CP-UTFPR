@@ -1,0 +1,26 @@
+V3 14
+FL D:/Projetos_ISE/LF_Ex04_2/clk_generate.vhd 2017/11/17.17:48:38 P.20131013
+EN work/clk_generate 1510953497 FL D:/Projetos_ISE/LF_Ex04_2/clk_generate.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/MATH_REAL 1381692182
+AR work/clk_generate/arq 1510953498 \
+      FL D:/Projetos_ISE/LF_Ex04_2/clk_generate.vhd EN work/clk_generate 1510953497
+FL D:/Projetos_ISE/LF_Ex04_2/disp_7seg.vhd 2017/11/17.17:48:05 P.20131013
+EN work/disp_7seg 1510953495 FL D:/Projetos_ISE/LF_Ex04_2/disp_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/disp_7seg/arq 1510953496 \
+      FL D:/Projetos_ISE/LF_Ex04_2/disp_7seg.vhd EN work/disp_7seg 1510953495
+FL D:/Projetos_ISE/LF_Ex04_2/my_package.vhd 2017/11/17.18:56:50 P.20131013
+PH work/my_pack 1510953493 FL D:/Projetos_ISE/LF_Ex04_2/my_package.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/MATH_REAL 1381692182 CD disp_7seg \
+      CD clk_generate
+PB work/my_pack 1510953494 \
+      FL D:/Projetos_ISE/LF_Ex04_2/my_package.vhd PH work/my_pack 1510953493
+FL D:/Projetos_ISE/LF_Ex04_2/topo.vhd 2017/11/17.19:18:02 P.20131013
+EN work/main 1510953499 FL D:/Projetos_ISE/LF_Ex04_2/topo.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB work/my_pack 1510953494
+AR work/main/arq 1510953500 \
+      FL D:/Projetos_ISE/LF_Ex04_2/topo.vhd EN work/main 1510953499 \
+      AR work/disp_7seg/arq 1510953496 AR work/clk_generate/arq 1510953498

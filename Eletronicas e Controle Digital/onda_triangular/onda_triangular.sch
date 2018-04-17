@@ -1,0 +1,526 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:onda_triangular-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Onda Triangular"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TL084 U1
+U 1 1 59198C93
+P 2850 2050
+F 0 "U1" H 2850 2250 50  0000 L CNN
+F 1 "TL084" H 2850 1850 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2800 2150 50  0001 C CNN
+F 3 "" H 2900 2250 50  0001 C CNN
+	1    2850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 59198EEB
+P 1950 2300
+F 0 "C1" H 1975 2400 50  0000 L CNN
+F 1 "10n" H 1975 2200 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L11.0mm_W6.3mm_P10.00mm_MKT" H 1988 2150 50  0001 C CNN
+F 3 "" H 1950 2300 50  0001 C CNN
+	1    1950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 59198F79
+P 2900 1600
+F 0 "C2" H 2925 1700 50  0000 L CNN
+F 1 "100n" H 2925 1500 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L11.0mm_W6.3mm_P10.00mm_MKT" H 2938 1450 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	0    1    1    0   
+$EndComp
+Text Label 2750 1450 0    60   ~ 0
+V+
+$Comp
+L C C3
+U 1 1 591991A4
+P 2900 2450
+F 0 "C3" H 2925 2550 50  0000 L CNN
+F 1 "100n" V 3050 2400 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L11.0mm_W6.3mm_P10.00mm_MKT" H 2938 2300 50  0001 C CNN
+F 3 "" H 2900 2450 50  0001 C CNN
+	1    2900 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 59199259
+P 2550 1150
+F 0 "R2" V 2630 1150 50  0000 C CNN
+F 1 "10k" V 2550 1150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2480 1150 50  0001 C CNN
+F 3 "" H 2550 1150 50  0001 C CNN
+	1    2550 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 59199533
+P 2850 2950
+F 0 "R3" V 2930 2950 50  0000 C CNN
+F 1 "10k" V 2850 2950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 2950 50  0001 C CNN
+F 3 "" H 2850 2950 50  0001 C CNN
+	1    2850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 591995BD
+P 2500 3250
+F 0 "R1" V 2580 3250 50  0000 C CNN
+F 1 "10k" V 2500 3250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 3250 50  0001 C CNN
+F 3 "" H 2500 3250 50  0001 C CNN
+	1    2500 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 J2
+U 1 1 591997B9
+P 7900 1550
+F 0 "J2" H 7900 1700 50  0000 C CNN
+F 1 "bourn_2vias" V 8000 1550 50  0000 C CNN
+F 2 "Connectors_Others:bornier2" H 7900 1550 50  0001 C CNN
+F 3 "" H 7900 1550 50  0001 C CNN
+	1    7900 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2150 1950 2150
+Wire Wire Line
+	2750 1450 2750 1750
+Connection ~ 2750 1600
+Wire Wire Line
+	2750 2350 2750 2600
+Connection ~ 2750 2450
+Wire Wire Line
+	2400 1150 1950 1150
+Wire Wire Line
+	1950 1150 1950 2150
+Wire Wire Line
+	2700 1150 3350 1150
+Wire Wire Line
+	3350 1150 3350 2950
+Wire Wire Line
+	3150 2050 4200 2050
+Wire Wire Line
+	3350 2950 3000 2950
+Connection ~ 3350 2050
+Wire Wire Line
+	2700 2950 2500 2950
+Wire Wire Line
+	2500 1950 2500 3100
+Wire Wire Line
+	2550 1950 2500 1950
+Connection ~ 2500 2950
+$Comp
+L GND #PWR01
+U 1 1 59199F58
+P 7650 1600
+F 0 "#PWR01" H 7650 1350 50  0001 C CNN
+F 1 "GND" H 7650 1450 50  0000 C CNN
+F 2 "" H 7650 1600 50  0001 C CNN
+F 3 "" H 7650 1600 50  0001 C CNN
+	1    7650 1600
+	0    1    1    0   
+$EndComp
+Text Label 7700 1500 2    60   ~ 0
+V_tri
+$Comp
+L D_Zener D1
+U 1 1 5919A442
+P 3800 2200
+F 0 "D1" H 3800 2300 50  0000 C CNN
+F 1 "D_Zener" H 3800 2100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_Zener D2
+U 1 1 5919A4EB
+P 3800 2600
+F 0 "D2" H 3800 2700 50  0000 C CNN
+F 1 "D_Zener" H 3800 2500 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3800 2600 50  0001 C CNN
+F 3 "" H 3800 2600 50  0001 C CNN
+	1    3800 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 2450 3800 2350
+$Comp
+L GND #PWR02
+U 1 1 5919A575
+P 3800 2900
+F 0 "#PWR02" H 3800 2650 50  0001 C CNN
+F 1 "GND" H 3800 2750 50  0000 C CNN
+F 2 "" H 3800 2900 50  0001 C CNN
+F 3 "" H 3800 2900 50  0001 C CNN
+	1    3800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2750 3800 2900
+$Comp
+L GND #PWR03
+U 1 1 5919A6D6
+P 2500 3450
+F 0 "#PWR03" H 2500 3200 50  0001 C CNN
+F 1 "GND" H 2500 3300 50  0000 C CNN
+F 2 "" H 2500 3450 50  0001 C CNN
+F 3 "" H 2500 3450 50  0001 C CNN
+	1    2500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5919A798
+P 1950 2500
+F 0 "#PWR04" H 1950 2250 50  0001 C CNN
+F 1 "GND" H 1950 2350 50  0000 C CNN
+F 2 "" H 1950 2500 50  0001 C CNN
+F 3 "" H 1950 2500 50  0001 C CNN
+	1    1950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3450 2500 3400
+Wire Wire Line
+	1950 2500 1950 2450
+$Comp
+L POT_TRIM RV1
+U 1 1 5919A8A4
+P 4200 2200
+F 0 "RV1" V 4000 2150 50  0000 C CNN
+F 1 "trimpot_100k" V 4100 2050 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Suntan_TSR-3386P_Horizontal" H 4200 2200 50  0001 C CNN
+F 3 "" H 4200 2200 50  0001 C CNN
+	1    4200 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 2050
+$Comp
+L GND #PWR05
+U 1 1 5919A9CB
+P 4200 2450
+F 0 "#PWR05" H 4200 2200 50  0001 C CNN
+F 1 "GND" H 4200 2300 50  0000 C CNN
+F 2 "" H 4200 2450 50  0001 C CNN
+F 3 "" H 4200 2450 50  0001 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2450 4200 2350
+$Comp
+L TL084 U1
+U 2 1 5919AA1A
+P 5050 2100
+F 0 "U1" H 5050 2300 50  0000 L CNN
+F 1 "TL084" H 5050 1900 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5000 2200 50  0001 C CNN
+F 3 "" H 5100 2300 50  0001 C CNN
+	2    5050 2100
+	1    0    0    -1  
+$EndComp
+Text Label 4950 1750 0    60   ~ 0
+V+
+Text Label 2750 2600 0    60   ~ 0
+V-
+Text Label 4950 2400 0    60   ~ 0
+V-
+Wire Wire Line
+	4350 2200 4750 2200
+$Comp
+L C C4
+U 1 1 5919ADD7
+P 5000 1500
+F 0 "C4" H 5025 1600 50  0000 L CNN
+F 1 "10n" H 5025 1400 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L11.0mm_W6.3mm_P10.00mm_MKT" H 5038 1350 50  0001 C CNN
+F 3 "" H 5000 1500 50  0001 C CNN
+	1    5000 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5919AE5E
+P 5000 1200
+F 0 "R4" V 5080 1200 50  0000 C CNN
+F 1 "120k" V 5000 1200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 1200 50  0001 C CNN
+F 3 "" H 5000 1200 50  0001 C CNN
+	1    5000 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 1500 4600 1500
+Wire Wire Line
+	4600 1200 4600 2200
+Connection ~ 4600 2200
+Wire Wire Line
+	4850 1200 4600 1200
+Connection ~ 4600 1500
+Wire Wire Line
+	5150 1500 5500 1500
+Wire Wire Line
+	5500 1200 5500 2100
+Wire Wire Line
+	5350 2100 5800 2100
+Wire Wire Line
+	5150 1200 5500 1200
+Connection ~ 5500 1500
+$Comp
+L R R5
+U 1 1 5919B18F
+P 5950 2100
+F 0 "R5" V 6030 2100 50  0000 C CNN
+F 1 "10k" V 5950 2100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5880 2100 50  0001 C CNN
+F 3 "" H 5950 2100 50  0001 C CNN
+	1    5950 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5919B218
+P 5950 3050
+F 0 "R6" V 6030 3050 50  0000 C CNN
+F 1 "10k" V 5950 3050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5880 3050 50  0001 C CNN
+F 3 "" H 5950 3050 50  0001 C CNN
+	1    5950 3050
+	0    1    1    0   
+$EndComp
+Connection ~ 5500 2100
+Wire Wire Line
+	6100 2100 6300 2100
+Wire Wire Line
+	6300 2100 6300 3050
+Wire Wire Line
+	6300 3050 6100 3050
+$Comp
+L CONN_01X03 J1
+U 1 1 5919B477
+P 1250 1750
+F 0 "J1" H 1250 1950 50  0000 C CNN
+F 1 "bourn_3vias" V 1350 1750 50  0000 C CNN
+F 2 "Connectors_Others:bornier3" H 1250 1750 50  0001 C CNN
+F 3 "" H 1250 1750 50  0001 C CNN
+	1    1250 1750
+	-1   0    0    1   
+$EndComp
+Text Label 1650 1750 0    60   ~ 0
+V-
+Text Label 1500 1850 0    60   ~ 0
+Off_set
+Text Label 5500 3050 2    60   ~ 0
+Off_set
+Wire Wire Line
+	5800 3050 5500 3050
+$Comp
+L TL084 U1
+U 3 1 5919B90A
+P 6950 2650
+F 0 "U1" H 6950 2850 50  0000 L CNN
+F 1 "TL084" H 6950 2450 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6900 2750 50  0001 C CNN
+F 3 "" H 7000 2850 50  0001 C CNN
+	3    6950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5919BC3B
+P 6950 3200
+F 0 "R8" V 7030 3200 50  0000 C CNN
+F 1 "10k" V 6950 3200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6880 3200 50  0001 C CNN
+F 3 "" H 6950 3200 50  0001 C CNN
+	1    6950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 5919BCA9
+P 6500 3450
+F 0 "R7" V 6580 3450 50  0000 C CNN
+F 1 "10k" V 6500 3450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6430 3450 50  0001 C CNN
+F 3 "" H 6500 3450 50  0001 C CNN
+	1    6500 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5919BCFD
+P 6500 3650
+F 0 "#PWR06" H 6500 3400 50  0001 C CNN
+F 1 "GND" H 6500 3500 50  0000 C CNN
+F 2 "" H 6500 3650 50  0001 C CNN
+F 3 "" H 6500 3650 50  0001 C CNN
+	1    6500 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3650 6500 3600
+Wire Wire Line
+	6800 3200 6500 3200
+Wire Wire Line
+	6500 2750 6500 3300
+Text Label 6850 2350 0    60   ~ 0
+V+
+Wire Wire Line
+	6650 2550 6300 2550
+Connection ~ 6300 2550
+Wire Wire Line
+	6650 2750 6500 2750
+Connection ~ 6500 3200
+Wire Wire Line
+	7100 3200 7350 3200
+Wire Wire Line
+	7350 3200 7350 2650
+Wire Wire Line
+	7250 2650 7700 2650
+$Comp
+L TL084 U1
+U 4 1 5919C8A2
+P 8000 2750
+F 0 "U1" H 8000 2950 50  0000 L CNN
+F 1 "TL084" H 8000 2550 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7950 2850 50  0001 C CNN
+F 3 "" H 8050 2950 50  0001 C CNN
+	4    8000 2750
+	1    0    0    -1  
+$EndComp
+Text Label 7900 2400 0    60   ~ 0
+V+
+Text Label 7900 3100 0    60   ~ 0
+V-
+Wire Wire Line
+	7900 3100 7900 3050
+Connection ~ 7350 2650
+Wire Wire Line
+	7700 2850 7600 2850
+Wire Wire Line
+	7600 2850 7600 3200
+Wire Wire Line
+	7600 3200 8500 3200
+Wire Wire Line
+	8500 3200 8500 2750
+Wire Wire Line
+	8300 2750 8750 2750
+Text Label 8750 2750 0    60   ~ 0
+V_tri
+Connection ~ 8500 2750
+Wire Wire Line
+	1650 1750 1450 1750
+$Comp
+L GND #PWR07
+U 1 1 5919E5D2
+P 4700 2000
+F 0 "#PWR07" H 4700 1750 50  0001 C CNN
+F 1 "GND" H 4700 1850 50  0000 C CNN
+F 2 "" H 4700 2000 50  0001 C CNN
+F 3 "" H 4700 2000 50  0001 C CNN
+	1    4700 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2000 4700 2000
+$Comp
+L GND #PWR08
+U 1 1 5919E707
+P 3050 2450
+F 0 "#PWR08" H 3050 2200 50  0001 C CNN
+F 1 "GND" H 3050 2300 50  0000 C CNN
+F 2 "" H 3050 2450 50  0001 C CNN
+F 3 "" H 3050 2450 50  0001 C CNN
+	1    3050 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5919FBEC
+P 3100 1600
+F 0 "#PWR09" H 3100 1350 50  0001 C CNN
+F 1 "GND" H 3100 1450 50  0000 C CNN
+F 2 "" H 3100 1600 50  0001 C CNN
+F 3 "" H 3100 1600 50  0001 C CNN
+	1    3100 1600
+	0    -1   -1   0   
+$EndComp
+Text Label 1650 1650 0    60   ~ 0
+V+
+Wire Wire Line
+	1650 1650 1450 1650
+Wire Wire Line
+	1500 1850 1450 1850
+Connection ~ 2750 2350
+Wire Wire Line
+	3100 1600 3050 1600
+Connection ~ 3050 1600
+Wire Wire Line
+	4950 1800 4950 1750
+Connection ~ 4950 1800
+Connection ~ 3800 2850
+Connection ~ 2750 1750
+Text Label 6850 3050 0    60   ~ 0
+V-
+Wire Wire Line
+	7650 1600 7700 1600
+Wire Wire Line
+	7900 2450 7900 2400
+Wire Wire Line
+	6850 3050 6850 2950
+$EndSCHEMATC

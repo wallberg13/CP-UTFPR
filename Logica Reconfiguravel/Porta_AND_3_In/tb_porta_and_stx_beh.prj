@@ -1,0 +1,2 @@
+vhdl isim_temp "and_3_in.vhd"
+vhdl isim_temp "tb_porta_and_3.vhd"

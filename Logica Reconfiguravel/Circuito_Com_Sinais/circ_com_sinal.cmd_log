@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/Circuito_Com_Sinais/circ_com_sinal.xst" -ofn "D:/Projetos_ISE/Circuito_Com_Sinais/circ_com_sinal.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/Circuito_Com_Sinais/circ_com_sinal.xst" -ofn "D:/Projetos_ISE/Circuito_Com_Sinais/circ_com_sinal.syr" 

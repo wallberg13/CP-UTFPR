@@ -1,0 +1,9 @@
+net b(1) loc = B4;
+net b(0) loc = K3;
+
+net a(1) loc = L3;
+net a(0) loc = P11;
+
+net x(0) loc = M5;
+net x(1) loc = M11;
+net x(2) loc = P7;

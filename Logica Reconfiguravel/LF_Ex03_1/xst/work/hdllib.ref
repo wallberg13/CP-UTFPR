@@ -1,0 +1,7 @@
+AR top arq D:/Projetos_ISE/LF_Ex03_1/top.vhd sub00/vhpl04 1510612228
+AR clk_generate arq D:/Projetos_ISE/LF_Ex03_1/clk_generate.vhd sub00/vhpl01 1510612226
+EN top NULL D:/Projetos_ISE/LF_Ex03_1/top.vhd sub00/vhpl03 1510612227
+PH my_pack NULL D:/Projetos_ISE/LF_Ex03_1/my_package.vhd sub00/vhpl02 1510612222
+EN disp_7seg NULL D:/Projetos_ISE/LF_Ex03_1/disp7_seg.vhd sub00/vhpl05 1510612223
+AR disp_7seg arq D:/Projetos_ISE/LF_Ex03_1/disp7_seg.vhd sub00/vhpl06 1510612224
+EN clk_generate NULL D:/Projetos_ISE/LF_Ex03_1/clk_generate.vhd sub00/vhpl00 1510612225

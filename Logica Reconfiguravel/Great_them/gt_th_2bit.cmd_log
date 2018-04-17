@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/Great_them/gt_th_2bit.xst" -ofn "D:/Projetos_ISE/Great_them/gt_th_2bit.syr" 

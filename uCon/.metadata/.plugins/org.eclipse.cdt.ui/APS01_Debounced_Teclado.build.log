@@ -1,0 +1,26 @@
+
+**** Build of configuration Debug for project APS01_Debounced_Teclado ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 54: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 79: remark #1538-D: (ULP 10.1) ISR RTI_TA1_M0 calls function tecla. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 175: remark #1538-D: (ULP 10.1) ISR RTI_TA0_M0 calls function tecla. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 210: remark #1538-D: (ULP 10.1) ISR RTI_TA0_M0 calls function tecla. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+'Finished building: ../main.c'
+' '
+'Building target: APS01_Debounced_Teclado.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"APS01_Debounced_Teclado.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.0.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="APS01_Debounced_Teclado_linkInfo.xml" --use_hw_mpy=none --rom_model -o "APS01_Debounced_Teclado.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+
+**** Build of configuration Debug for project APS01_Debounced_Teclado ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "C:/ti/ccsv7/utils/bin/gmake" is not found in PATH
+
+PATH=[C:\ti\ccsv7\ccs_base\emulation\analysis\bin\..\..\..\common\bin;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\..\..\..\DebugServer\bin;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\ofs;C:\ti\ccsv7\ccs_base\common\bin;C:\ti\ccsv7\ccs_base\common\uscif;C:\ti\ccsv7\ccs_base\DebugServer\license;C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;D:\MATLAB\R2013a\runtime\win32;D:\MATLAB\R2013a\bin;C:\ti\ccsv7\eclipse;;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\.;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\../xmldb/aet_config;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\../xmldb/trace_config/setup;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\../xmldb/trace_config/devices;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\../../../common/bin;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\../../../common/uscif;C:\ti\ccsv7\ccs_base\emulation\analysis\bin\../../tpi;C:\ti\ccsv7\ccs_base\DebugServer\drivers]
+
+**** Build Finished ****

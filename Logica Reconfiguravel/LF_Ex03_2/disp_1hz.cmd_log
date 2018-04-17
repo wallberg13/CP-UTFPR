@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 disp_1hz.ngc disp_1hz.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o disp_1hz_map.ncd disp_1hz.ngd disp_1hz.pcf 
+par -w -intstyle ise -ol high -t 1 disp_1hz_map.ncd disp_1hz.ncd disp_1hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml disp_1hz.twx disp_1hz.ncd -o disp_1hz.twr disp_1hz.pcf 
+bitgen -intstyle ise -f disp_1hz.ut disp_1hz.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 disp_1hz.ngc disp_1hz.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o disp_1hz_map.ncd disp_1hz.ngd disp_1hz.pcf 
+par -w -intstyle ise -ol high -t 1 disp_1hz_map.ncd disp_1hz.ncd disp_1hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml disp_1hz.twx disp_1hz.ncd -o disp_1hz.twr disp_1hz.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f disp_1hz.ut disp_1hz.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 disp_1hz.ngc disp_1hz.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o disp_1hz_map.ncd disp_1hz.ngd disp_1hz.pcf 
+par -w -intstyle ise -ol high -t 1 disp_1hz_map.ncd disp_1hz.ncd disp_1hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml disp_1hz.twx disp_1hz.ncd -o disp_1hz.twr disp_1hz.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f disp_1hz.ut disp_1hz.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 disp_1hz.ngc disp_1hz.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o disp_1hz_map.ncd disp_1hz.ngd disp_1hz.pcf 
+par -w -intstyle ise -ol high -t 1 disp_1hz_map.ncd disp_1hz.ncd disp_1hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml disp_1hz.twx disp_1hz.ncd -o disp_1hz.twr disp_1hz.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f disp_1hz.ut disp_1hz.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 disp_1hz.ngc disp_1hz.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o disp_1hz_map.ncd disp_1hz.ngd disp_1hz.pcf 
+par -w -intstyle ise -ol high -t 1 disp_1hz_map.ncd disp_1hz.ncd disp_1hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml disp_1hz.twx disp_1hz.ncd -o disp_1hz.twr disp_1hz.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f disp_1hz.ut disp_1hz.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.xst" -ofn "D:/Projetos_ISE/LF_Ex03_2/disp_1hz.syr" 

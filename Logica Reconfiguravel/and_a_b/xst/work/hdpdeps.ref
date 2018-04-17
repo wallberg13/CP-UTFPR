@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/and_a_b/andab.vhd 2017/09/25.19:34:15 P.20131013
+EN work/and2bit 1506380486 FL D:/Projetos_ISE/and_a_b/andab.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and2bit/arq 1506380487 \
+      FL D:/Projetos_ISE/and_a_b/andab.vhd EN work/and2bit 1506380486

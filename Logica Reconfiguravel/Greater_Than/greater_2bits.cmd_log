@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/Greater_Than/greater_2bits.xst" -ofn "D:/Projetos_ISE/Greater_Than/greater_2bits.syr" 

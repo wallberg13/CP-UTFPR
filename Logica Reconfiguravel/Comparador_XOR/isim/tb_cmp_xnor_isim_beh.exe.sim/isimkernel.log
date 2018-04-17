@@ -1,0 +1,29 @@
+Command line:
+   tb_cmp_xnor_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50238
+
+Tue Sep 12 19:31:48 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 842.408 Meg
+
+ Total Signals          : 6
+ Total Nets             : 3
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 363
+Total Line Count : 5
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 1156.98 Meg
+
+Tue Sep 12 19:32:25 2017
+

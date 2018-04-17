@@ -1,0 +1,8 @@
+V3 3
+FL D:/Projetos_ISE/Comparador_Sem_Sinal/comp_sem_sinal.vhd 2017/09/12.10:13:21 P.20131013
+EN work/cmp_sem_sinal 1505222005 \
+      FL D:/Projetos_ISE/Comparador_Sem_Sinal/comp_sem_sinal.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cmp_sem_sinal/arq 1505222006 \
+      FL D:/Projetos_ISE/Comparador_Sem_Sinal/comp_sem_sinal.vhd \
+      EN work/cmp_sem_sinal 1505222005

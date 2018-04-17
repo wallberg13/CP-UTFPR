@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/PiscaLED/ff_d.xst" -ofn "D:/Projetos_ISE/PiscaLED/ff_d.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 ff_d.ngc ff_d.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o ff_d_map.ncd ff_d.ngd ff_d.pcf 
+par -w -intstyle ise -ol high -t 1 ff_d_map.ncd ff_d.ncd ff_d.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ff_d.twx ff_d.ncd -o ff_d.twr ff_d.pcf 
+bitgen -intstyle ise -f ff_d.ut ff_d.ncd 

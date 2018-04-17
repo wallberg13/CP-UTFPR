@@ -1,0 +1,137 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex04_3/cronometro.xst" -ofn "D:/Projetos_ISE/LF_Ex04_3/cronometro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_out.ucf -p xc3s100e-cp132-4 cronometro.ngc cronometro.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cronometro_map.ncd cronometro.ngd cronometro.pcf 
+par -w -intstyle ise -ol high -t 1 cronometro_map.ncd cronometro.ncd cronometro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cronometro.twx cronometro.ncd -o cronometro.twr cronometro.pcf -ucf pin_out.ucf 
+bitgen -intstyle ise -f cronometro.ut cronometro.ncd 

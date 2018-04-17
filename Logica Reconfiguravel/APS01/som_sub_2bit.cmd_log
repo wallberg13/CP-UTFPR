@@ -1,0 +1,95 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 
+xst -intstyle ise -ifn "D:/Projetos_ISE/APS01/som_sub_2bit.xst" -ofn "D:/Projetos_ISE/APS01/som_sub_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cnst_som_sub.ucf -p xc3s100e-cp132-4 som_sub_2bit.ngc som_sub_2bit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o som_sub_2bit_map.ncd som_sub_2bit.ngd som_sub_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 som_sub_2bit_map.ncd som_sub_2bit.ncd som_sub_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml som_sub_2bit.twx som_sub_2bit.ncd -o som_sub_2bit.twr som_sub_2bit.pcf -ucf cnst_som_sub.ucf 
+bitgen -intstyle ise -f som_sub_2bit.ut som_sub_2bit.ncd 

@@ -1,0 +1,15 @@
+NET "mclk" LOC = B8;
+
+NET "sel_d(0)" LOC = F12;
+NET "sel_d(1)" LOC = J12;
+NET "sel_d(2)" LOC = M13;
+NET "sel_d(3)" LOC = K14;
+
+NET "disp(0)" LOC = L14;
+NET "disp(1)" LOC = H12;
+NET "disp(2)" LOC = N14;
+NET "disp(3)" LOC = N11;
+NET "disp(4)" LOC = P12;
+NET "disp(5)" LOC = L13;
+NET "disp(6)" LOC = M12;
+NET "disp(7)" LOC = N13;

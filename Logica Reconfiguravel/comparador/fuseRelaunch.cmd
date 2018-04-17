@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Projetos_ISE/comparador/tb_ccto_isim_beh.exe" -prj "D:/Projetos_ISE/comparador/tb_ccto_beh.prj" "work.tb_ccto" 

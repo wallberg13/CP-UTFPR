@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projetos_ISE/APS01_Ex01/APS01_Ex01.vhd 2017/10/09.19:27:47 P.20131013
+EN work/som_sub_2bit 1507588078 FL D:/Projetos_ISE/APS01_Ex01/APS01_Ex01.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/som_sub_2bit/arq 1507588079 \
+      FL D:/Projetos_ISE/APS01_Ex01/APS01_Ex01.vhd EN work/som_sub_2bit 1507588078

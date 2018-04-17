@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_1/clk_generate.xst" -ofn "D:/Projetos_ISE/LF_Ex03_1/clk_generate.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_1/clk_generate.xst" -ofn "D:/Projetos_ISE/LF_Ex03_1/clk_generate.syr" 
+xst -intstyle ise -ifn "D:/Projetos_ISE/LF_Ex03_1/clk_generate.xst" -ofn "D:/Projetos_ISE/LF_Ex03_1/clk_generate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 clk_generate.ngc clk_generate.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o clk_generate_map.ncd clk_generate.ngd clk_generate.pcf 
+par -w -intstyle ise -ol high -t 1 clk_generate_map.ncd clk_generate.ncd clk_generate.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml clk_generate.twx clk_generate.ncd -o clk_generate.twr clk_generate.pcf 

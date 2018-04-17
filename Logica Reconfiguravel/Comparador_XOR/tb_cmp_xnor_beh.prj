@@ -1,0 +1,2 @@
+vhdl work "comp_xor.vhd"
+vhdl work "tb_comparador_xor.vhd"

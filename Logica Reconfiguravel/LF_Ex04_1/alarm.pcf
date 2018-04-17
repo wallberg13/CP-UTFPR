@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 21 19:58:37 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "sensor" LOCATE = SITE "G12" LEVEL 1;
+COMP "status" LOCATE = SITE "G1" LEVEL 1;
+COMP "controle" LOCATE = SITE "N3" LEVEL 1;
+COMP "mclk" LOCATE = SITE "B8" LEVEL 1;
+COMP "alarme" LOCATE = SITE "M5" LEVEL 1;
+NET "mclk_BUFGP/IBUFG" BEL "mclk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

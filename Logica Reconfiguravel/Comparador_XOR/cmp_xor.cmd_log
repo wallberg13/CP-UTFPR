@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Projetos_ISE/Comparador_XOR/cmp_xor.xst" -ofn "D:/Projetos_ISE/Comparador_XOR/cmp_xor.syr" 
