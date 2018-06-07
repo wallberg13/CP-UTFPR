@@ -1,27 +1,27 @@
 create table autor(
 	idAut integer not null primary key auto_increment,
-	nome varchar(255) not null unique
+	nome varchar(100) not null unique
 );
 
 commit;
 
 create table tipo_texto(
 	idTipText integer not null primary key auto_increment,
-	nome varchar(255) not null unique
+	nome varchar(100) not null unique
 );
 
 commit;
 
 create table idioma(
 	idIdioma integer not null primary key auto_increment,
-	nome varchar(255) not null unique
+	nome varchar(100) not null unique
 );
 
 commit;
 
 create table palavra(
 	idPal integer not null primary key auto_increment,
-	nome varchar(255) not null,
+	nome varchar(100) not null,
 	fk_idioma integer not null,
 	constraint const_fk_ido foreign key (fk_idioma) references idioma(idIdioma)
 );
@@ -30,7 +30,7 @@ commit;
 
 create table texto(
 	idTex integer not null primary key auto_increment,
-	nome varchar(255) not null unique,
+	nome varchar(100) not null unique,
 	fk_tipTex integer not null,
 	fk_autor integer not null,
 	fk_idioma integer not null,

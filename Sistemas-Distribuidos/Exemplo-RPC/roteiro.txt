@@ -1,0 +1,24 @@
+1 - instalar pacote rpcbind
+
+
+2 - rpcgen -a -C interface.x
+
+Os seguintes códigos serão gerados:
+-- interface.h - cabecalho que será incluído no código do cliente e do servidor
+-- interface_svc.c - stub do servidor
+-- interface_clnt.c - stub do cliente
+-- interface_xdr.c - é gerado dependendo da lista de parâmetros. Responsável pelo empacotamento dos dois inteiros (operandos) para o formato padrão
+-- interface_client.c - código exemplo para o cliente 
+-- interface_server.c - código exemplo para o servidor 
+-- Makefile.interface - para compilar o projeto
+
+3 - renomear Makefile.interface para Makefile
+
+4 - editar Makefile para deixar servidor em foreground, para que facilite os testes e depuracao
+-- substitua CFLAGS += -g 
+-- por CFLAGS += -g -DRPC_SVC_FG 
+
+
+4 - Editar o código do cliente (interface_client.c) conforme a necessidade
+5 - Editar o código do servidor (interface_client.c) para inserir a lógica do código servidor
+

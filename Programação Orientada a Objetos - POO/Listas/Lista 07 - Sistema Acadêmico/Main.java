@@ -6,18 +6,18 @@ import java.io.ObjectOutputStream;
 import java.io.ObjectInputStream;
 
 public class Main{
-    
+
     public static void main(String[] args){
 	Scanner teclado = new Scanner(System.in);
 	Estudante[] vetor = new Estudante[10];
-	
+
 	menuPrincipal(vetor,teclado);
     }
-    
+
     private static void menuPrincipal(Estudante[] vetor, Scanner teclado){
 	int resp = 1;
 	File arq = new File("Estudante.dat");
-	
+
 	do{
 	    System.out.println("01 - Incluir Aluno");
 	    System.out.println("02 - Remover Aluno");
@@ -30,14 +30,14 @@ public class Main{
 	    System.out.print("Digite sua resposta: ");
 	    resp = teclado.nextInt();
 	    System.out.println("\n\n\n");
-	    
+
 	    switch(resp){
 		case 1:
 		    incluirAluno(vetor,teclado);
 		    break;
 		case 2:
 		    removerAluno(vetor,teclado);
-		    break;		
+		    break;
 		case 3:
 		    alterarDados(vetor,teclado);
 		    break;
@@ -54,11 +54,11 @@ public class Main{
 		    vetor = lerAlunoArquivo(arq);
 		    break;
 	    }
-	    
+
 	}while(resp != 0);
 	System.out.println("\n\n\n");
     }
-    
+
     private static void incluirAluno(Estudante[] vetor,Scanner teclado){
 	int i,dia,mes,ano;
 	if(verificaCheio(vetor) == false){
@@ -67,16 +67,16 @@ public class Main{
 	    nome = teclado.nextLine();
 	    do{
 		System.out.println("Digite a data de nascimento do aluno: ");
-		System.out.print("Dia: "); dia = teclado.nextInt(); 
-		System.out.print("Mês: "); mes = teclado.nextInt(); 
+		System.out.print("Dia: "); dia = teclado.nextInt();
+		System.out.print("Mês: "); mes = teclado.nextInt();
 		System.out.print("Ano: "); ano = teclado.nextInt();
 		if(Data.validaEntrada(dia,mes,ano) == false){
 		    System.out.println("Digite novamente! Data Invalida\n");
 		}
-		    
+
 	    }while(Data.validaEntrada(dia,mes,ano) == false);
-	    
-	    Data dNasc = new Data(dia,mes,ano); 
+
+	    Data dNasc = new Data(dia,mes,ano);
 	    for(i = 0; i < vetor.length; i++){
 		if(vetor[i] == null || vetor[i].getMatricula() == 0)
 		    break;

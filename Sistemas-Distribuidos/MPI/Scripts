@@ -1,0 +1,9 @@
+#!/bin/bash
+
+n=16
+[ -f $2 ] && rm $2
+while [ $n -le 16 ]; do
+	echo "Interação com $n processos"
+	mpirun --hostfile hostfile -np $n $1 >> $2
+	n=$((n*2))
+done

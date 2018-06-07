@@ -72,7 +72,7 @@ x_std = []
 x = []
 for _ in range(100):
     # Classify test samples
-    ppn = Perceptron(max_iter=1000, eta0=0.001, random_state=np.random)
+    ppn = Perceptron(max_iter=2000, eta0=0.001, random_state=np.random, n_jobs=-1)
     ppn.fit(X_train_std, y_train)
     y_pred = ppn.predict(X_test_std)
     

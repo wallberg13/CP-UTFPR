@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include<mysql.h>
+#include<mysql/mysql.h>
 
 #define HOST "localhost"
 #define USER "guest"
