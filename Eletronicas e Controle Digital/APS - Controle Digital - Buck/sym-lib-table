@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name buck_driver-rescue)(type Legacy)(uri ${KIPRJMOD}/buck_driver-rescue.lib)(options "")(descr ""))
+)

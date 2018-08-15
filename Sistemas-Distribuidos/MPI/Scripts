@@ -1,9 +1,18 @@
 #!/bin/bash
-
-n=16
+n_nos=4
+n=1
+echo "Local: " >> $2
 [ -f $2 ] && rm $2
-while [ $n -le 16 ]; do
-	echo "Interação com $n processos"
-	mpirun --hostfile hostfile -np $n $1 >> $2
+while [ $n -le 8 ]; do
+	echo "Interação com $n processos - Local"
+	mpirun -hosts 172.20.220.97 -np $n $1 >> $2
+	n=$((n*2))
+done
+
+echo "Distribuido: " >> $2
+n=$n_nos
+while [ $n -le 32 ]; do
+	echo "Interação distribuida com $n_nos para $n processos"
+	mpirun -hosts 172.20.220.97,172.20.220.118,172.20.220.138,172.20.221.157 -np $n $1 >> $2
 	n=$((n*2))
 done

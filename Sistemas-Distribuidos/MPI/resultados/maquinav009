@@ -1,0 +1,17 @@
+pi is approximately 3.1415926535894507, Error is 0.0000000000003424
+Time: 92.774330	 Proc: 1
+pi is approximately 3.1415926535897953, Error is 0.0000000000000022
+Time: 48.409977	 Proc: 2
+pi is approximately 3.1415926535897549, Error is 0.0000000000000382
+Time: 48.791267	 Proc: 4
+pi is approximately 3.1415926535898286, Error is 0.0000000000000355
+Time: 50.796643	 Proc: 8
+Distribuido: 
+pi is approximately 3.1415926535897549, Error is 0.0000000000000382
+Time: 23.423013	 Proc: 4
+pi is approximately 3.1415926535898286, Error is 0.0000000000000355
+Time: 13.051508	 Proc: 8
+pi is approximately 3.1415926535897762, Error is 0.0000000000000169
+Time: 13.998998	 Proc: 16
+pi is approximately 3.1415926535898051, Error is 0.0000000000000120
+Time: 14.673836	 Proc: 32
