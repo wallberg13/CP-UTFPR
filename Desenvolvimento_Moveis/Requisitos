@@ -1,0 +1,77 @@
+O que deve ter no projeto.
+
+	- Temporizador:
+		_
+		|-> Display com controle personalização do timer.
+		|-> Botões de aumentar, diminuir e reset.
+		|-> Aplicativo com wifi para configurar.
+		|-> Configuração de vazão.
+
+	- Infraestrutura para controle de energia.
+		_
+		|-> Customizar via app nivel da bateria e
+		|	caso faltar energia, cortar funcionalidades.
+
+	- Nível de comida.
+
+	- Alerta sonoro.
+
+	- Mecanismo para saber se o animal comeu.
+
+
+
+|/\/\/\/\/\/|				|-----------|				|-----------|
+|			|<- Fazer Banco |			|	  UART		|			|
+|	  BD 	|				|	 IoT	|<-----I2C----->|			|-> Servo Motor
+|	Nuvem	|<-----LOG----->| Interface	|				|	ESP32	|-> Ultrasom
+|			|				|  Rasp PI	|				|	Inloco	|-> Display
+|			|				| Internet	|				|			|-> Push Button
+|			|-> AppAndroid	|			|-> Câmara		|			|-> Buzzer
+|\/\/\/\/\/\|				|-----------|	  Rasp		|-----------|
+
+--> Definições de Display
+ |
+ |--> Definições de hardware.
+ |		-> Toda cupula do equipamento.
+
+--> Projeto de limites de cada coisa e arquitetura externa.
+
+	--> PCB com ultrassom, Display, Push Button e Buzzer serao independentes.
+		-> Raul
+
+--> Menu Display
+	--> Configuracao de tempo:
+	 |
+	 |--> Configuracao de tempo em tempo.
+	 |-->
+	 |-->
+
+--> Levantamento do Micro:
+	--> Servo Motor --> 5V, GND, 1 Pino de PWM. --> Foi
+	--> DisplayLCD 	--> 5V, GND, 6 Pinos para sinal. --> Foi
+	--> Botoes 		--> 5 botoes. --> Foi
+	--> Buzzer		--> GND, 1 Pino digital. --> Foi
+	--> Ultrassom	--> 5V, GND, 1 Pwm, 1 Digital -> Foi
+	--> UART		--> RX, TX -> Foi
+	----------------------------------------------------
+	--> Soma dos Pin --> 12 Pinos Normais, 2 PWM
+
+	--> No arduino:
+			  ___________________
+		IOREF |				GND |
+		RESET | P			 13 |-> Ultra02
+		3.3V  |	o			 12 |-> Ultra01
+		5V	  |	w			~11 |-> Servo
+		GND	  |	e			~10 |->
+		GND	  |	r			~ 9 |-> Buzzer
+		Vin	  |				  8 |->
+			  |					|
+			  |				  7 |->
+			  |				 ~6 |-> Botao
+		   A0 |-> LCD01		 ~5 |-> Botao
+		   A1 |-> LCD02		  4 |-> Botao
+		   A2 |-> LCD03		 ~3 |-> Botao
+		   A3 |-> LCD04		  2 |-> Botao
+		   A4 |-> LCD05		TX1 |-> UART
+		   A5 |-> LCD06		RX0 |-> UART
+		      -------------------

@@ -1,0 +1,36 @@
+// Grafo de dependências Maratona-Linux
+digraph {
+	MD [label="maratona
+desktop"]
+	ME [label="maratona
+essential" color="red:black"]
+	MF [label="maratona
+firewall"]
+	MC [label="maratona
+conflitos"]
+	MB [label="maratona
+background"]
+	MU [label="maratona
+usuario
+icpc"]
+	MS [label="maratona
+submission"]
+	MEd [label="maratona
+editores"]
+	ML [label="maratona
+linguagens" color="red:black"]
+	MLd [label="maratona
+linguagens
+doc" color="red:black"]
+	MD -> MF
+	MD -> MC
+	MD -> MB
+	MD -> MU
+	MD -> MS
+	ME -> MEd
+	ME -> ML
+	ME -> MLd
+	MD -> ME [color=red]
+	MEd -> ML [color=red]
+	MU -> MLd [color=red]
+}

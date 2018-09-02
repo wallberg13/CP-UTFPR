@@ -1,0 +1,20 @@
+1 - Qual é o significado de Vulnerabilidade? Qual a diferença entre falha e bug.
+
+	- Vulnerabilidade é uma "brecha" que pode ser encontrada no sistema, que
+	  possa abrir espaço para ataques externos, pode ser tanto causada por mau
+	  uso como falha do sistema.
+
+	- Bug: é um comportamento inesperado do sistema que pode ser causado por
+	  erro de programação, ou desenvolvimento.
+
+	- Falha: pro
+
+2 - O que é um ataque?
+
+3 - Quais as principais propriedades de segurança? Explique cada propriedade e Exemplifique uma violação.
+
+4 - O que é segurança de software? Qual é o seu foco?
+
+5 - Qual é a importância da segurança de software?
+
+6 - Na sua opinião, determine três princípios de segurança importantes para segurança de software. Porque você os escolheu?
