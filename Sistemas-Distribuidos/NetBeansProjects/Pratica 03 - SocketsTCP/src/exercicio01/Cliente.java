@@ -11,12 +11,12 @@ package exercicio01;
  */
 public class Cliente {
     private IMatematica mat = null;
-    
+
     public Cliente(String ip, int porta){
         this.mat = new ProxyMatematica(ip, porta);
         init();
     }
-    
+
     public void init(){
         double a = 3.0;
         double b = 4.0;

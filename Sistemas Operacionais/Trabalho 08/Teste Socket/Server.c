@@ -45,7 +45,7 @@ int main(){
   }
   printf("Socket Aberto\n");
   server.sin_family = PF_INET; // Protocolo de internet.
-  server.sin_port = htons(1080); // Atribui a porta 1080 para ser a porta do socket
+  server.sin_port = htons(12345); // Atribui a porta 1080 para ser a porta do socket
   server.sin_addr.s_addr = INADDR_ANY; // Permite qualquer um fazer a conexão no socket
   /**
     Segundo, o socket deve reservar uma porta para ser usada, atraves da funcao bind.

@@ -6,7 +6,7 @@
 #include<sys/socket.h>
 #include<string.h>
 
-#define ip_maquina "192.168.100.18"
+#define ip_maquina "192.168.25.89"
 /**
   Arquivo cliente, onde ele deve saber aonde o Servidor
   esta localizado, para que ele possa se conectar a ele.
@@ -30,7 +30,7 @@ int main(){
     Definir como vai ser a transmissao, numero de porta e o ip destino.
   */
   servidor.sin_family = PF_INET;
-  servidor.sin_port = htons(1080);
+  servidor.sin_port = htons(12345);
   servidor.sin_addr.s_addr = inet_addr(ip_maquina);
 
   if(connect(sock, (struct sockaddr *)&servidor, sizeof(servidor)) == -1){

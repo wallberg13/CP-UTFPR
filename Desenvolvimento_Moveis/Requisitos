@@ -19,10 +19,9 @@ O que deve ter no projeto.
 	- Mecanismo para saber se o animal comeu.
 
 
-
 |/\/\/\/\/\/|				|-----------|				|-----------|
 |			|<- Fazer Banco |			|	  UART		|			|
-|	  BD 	|				|	 IoT	|<-----I2C----->|			|-> Servo Motor
+|	  BD 	|	  socket	|	 IoT	|<-----I2C----->|			|-> Servo Motor
 |	Nuvem	|<-----LOG----->| Interface	|				|	ESP32	|-> Ultrasom
 |			|				|  Rasp PI	|				|	Inloco	|-> Display
 |			|				| Internet	|				|			|-> Push Button
@@ -33,6 +32,7 @@ O que deve ter no projeto.
  |
  |--> Definições de hardware.
  |		-> Toda cupula do equipamento.
+ |--> Mecanismos pra display.
 
 --> Projeto de limites de cada coisa e arquitetura externa.
 
@@ -75,3 +75,25 @@ O que deve ter no projeto.
 		   A4 |-> LCD05		TX1 |-> UART
 		   A5 |-> LCD06		RX0 |-> UART
 		      -------------------
+
+---------------------- ATRIBUICOES --------------------
+--> High Level: Lucas Puhl
+--> Middle: Jefferson e Wall
+--> Baixaria: Raul Scarmocin
+
+----------------------- uCon ------------------------
+---> 3 partes:
+---> Interrupcoes -> Pega Strings --> Trata --> Configura e mostra no display.
+											 |
+											 |--> Menu
+
+---------------------- Rasp --------------------------
+---> 3 partes:
+---> Recebe dados sock --> Parse da string --> Manda UART
+
+
+
+---------------------- APP --------------------------
+---> 3 partes:
+----> Desenho de interface --> Tramentos de dados e formacao de Strings -->
+Mandar para RASP.
