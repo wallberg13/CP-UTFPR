@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Aug 30 11:10:26 2018
+
+@author: sir-berg
+"""
+
+from graphviz import Digraph
+
+dot = Digraph(comment='Grafo de dependências Maratona-Linux')
+
+dot.node('MD', 'maratona\ndesktop')
+dot.node('ME', 'maratona\nessential',color='red:black', style='dotted')
+dot.node('MF', 'maratona\nfirewall')
+dot.node('MC', 'maratona\nconflitos')
+dot.node('MB', 'maratona\nbackground')
+dot.node('MU', 'maratona\nusuario\nicpc')
+dot.node('MS', 'maratona\nsubmission')
+dot.node('MEd', 'maratona\neditores')
+dot.node('ML', 'maratona\nlinguagens',color='red:black', style='dotted')
+dot.node('MLd', 'maratona\nlinguagens\ndoc',color='red:black', style='dotted')
+
+# Pacotes Recommends
+
+dot.node('MDl', 'maratona\ndesktop\nlatam',color='blue:black', style='dashed')
+
+dot.node('MECu', 'maratona\neditores\ncuba',color='blue:black', style='dashed')
+dot.node('MECh', 'maratona\neditores\nchile',color='blue:black', style='dashed')
+
+dot.edge('MD','MF')
+dot.edge('MD','MC')
+dot.edge('MD','MB')
+dot.edge('MD','MU')
+dot.edge('MD','MS')
+dot.edge('ME','MEd')
+dot.edge('ME','ML')
+dot.edge('ME','MLd')
+
+dot.edge('MD','ME',color='red', style='dotted')
+dot.edge('MEd','ML',color='red', style='dotted')
+dot.edge('MU','MLd',color='red', style='dotted')
+
+dot.edge('MD','MDl',color='blue', style='dashed')
+dot.edge('MEd','MECu',color='blue', style='dashed')
+dot.edge('MEd','MECh', color='blue', style='dashed')
+
+dot.format = 'svg'
+dot.view()
+#dot.render()

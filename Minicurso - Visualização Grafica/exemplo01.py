@@ -36,16 +36,12 @@ for i in range(1, len(linhas)):
     latitudes.append(float(lati))
     longitudes.append(float(longi)*(-1)) # Inverter as longitudes
 
-#plt.scatter(latitudes, temperaturas)
-#plt.xlabel('Latitude')
-#plt.ylabel('Temp (F)')
+plt.scatter(latitudes, temperaturas)
+plt.xlabel('Latitude')
+plt.ylabel('Temp (F)')
 
-#plt.figure()
-#plt.scatter(longitudes, latitudes, s=100, c=np.array(temperaturas)/80, cmap='jet')
+plt.figure()
+plt.scatter(longitudes, latitudes, s=100, c=np.array(temperaturas)/80, cmap='jet')
 
 plt.figure()
 plt.hist(temperaturas, 20)
-#%% 
-
-for i in range(10000):
-    print("Este i é: ",i,".",end="\r")

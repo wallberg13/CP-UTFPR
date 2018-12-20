@@ -8,7 +8,7 @@
 void print_vetor(int *vet, int n){
   int i;
   for(i = 0; i < n-1; i++){
-    printf("%2i ",vet[i]);|
+    printf("%2i ",vet[i]);
   }
     printf("%2i %2i \t",vet[i],vet[0]);
 }

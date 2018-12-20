@@ -3,7 +3,7 @@ digraph {
 	MD [label="maratona
 desktop"]
 	ME [label="maratona
-essential" color="red:black"]
+essential" color="red:black" style=dotted]
 	MF [label="maratona
 firewall"]
 	MC [label="maratona
@@ -18,19 +18,31 @@ submission"]
 	MEd [label="maratona
 editores"]
 	ML [label="maratona
-linguagens" color="red:black"]
+linguagens" color="red:black" style=dotted]
 	MLd [label="maratona
 linguagens
-doc" color="red:black"]
-	MD -> MF
-	MD -> MC
-	MD -> MB
-	MD -> MU
-	MD -> MS
-	ME -> MEd
-	ME -> ML
-	ME -> MLd
-	MD -> ME [color=red]
-	MEd -> ML [color=red]
-	MU -> MLd [color=red]
+doc" color="red:black" style=dotted]
+	MDl [label="maratona
+desktop
+latam" color="blue:black" style=dashed]
+	MECu [label="maratona
+editores
+cuba" color="blue:black" style=dashed]
+	MECh [label="maratona
+editores
+chile" color="blue:black" style=dashed]
+		MD -> MF
+		MD -> MC
+		MD -> MB
+		MD -> MU
+		MD -> MS
+		ME -> MEd
+		ME -> ML
+		ME -> MLd
+		MD -> ME [color=red style=dotted]
+		MEd -> ML [color=red style=dotted]
+		MU -> MLd [color=red style=dotted]
+		MD -> MDl [color=blue style=dashed]
+		MEd -> MECu [color=blue style=dashed]
+		MEd -> MECh [color=blue style=dashed]
 }
